@@ -2,13 +2,13 @@
 
 ## MusicLM - Pytorch
 
-Implementation of <a href="https://google-research.github.io/seanet/musiclm/examples/">MusicLM</a>, Google's new SOTA model for music generation using attention networks, in Pytorch.
+Implementación de <a href="https://google-research.github.io/seanet/musiclm/examples/">MusicLM</a>, el nuevo modelo SOTA de Google para la generación de música mediante redes de atención, en Pytorch.
+
+Básicamente, usan <a href="https://github.com/lucidrains/audiolm-pytorch">AudioLM</a> condicionado por texto, pero sorprendentemente con las incrustaciones de un modelo aprendido contrastivo de texto y audio llamado <a href ="https://arxiv.org/abs/2208.12415">MuLan</a>. MuLan es lo que se construirá en este repositorio, con AudioLM modificado del otro repositorio para admitir las necesidades de generación de música aquí.
 
 They are basically using text-conditioned <a href="https://github.com/lucidrains/audiolm-pytorch">AudioLM</a>, but surprisingly with the embeddings from a text-audio contrastive learned model named <a href="https://arxiv.org/abs/2208.12415">MuLan</a>. MuLan is what will be built out in this repository, with AudioLM modified from the other repository to support the music generation needs here.
 
-Please join <a href="https://discord.gg/xBPBXfcFHd"><img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a> if you are interested in helping out with the replication with the <a href="https://laion.ai/">LAION</a> community
-
-<a href="https://www.youtube.com/watch?v=jTrYIGxOuKQ">What's AI by Louis Bouchard</a>
+ùnete al Discord <a href="https://discord.gg/xBPBXfcFHd"><img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a> si está interesado en ayudar <a href="https://laion.ai/">LAION</a>
 
 ## Appreciation
 
